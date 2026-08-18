@@ -1,0 +1,22 @@
+body{
+    background-image: url("/assets/galaxias.jpg");
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.contenedor{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: translateY(-8px); /* *Eleva la tarjeta 8 píxeles */
+    border: 1px solid #ccc; /* *Agrega un borde sutil */
+}
+
+.para-flex {
+    display: flex;
+    justify-content: space-between;
+}
